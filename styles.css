@@ -1,0 +1,38 @@
+.donutbanner img {
+  max-width: 100%;
+}
+
+.donuts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(127, 255, 212, 0.651);
+}
+
+.donut-tag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.donut-tag img {
+  animation: spin 5s linear infinite;
+  width: 60%;
+  margin: 8%;
+}
+
+.donut-tag button {
+  background-color: rgb(240, 159, 39);
+  color: white;
+  font-size: 16px;
+  width: 100px;
+}
